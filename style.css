@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    width: 100%;
+    height: 250px;
+
+}
+
+.bl {
+    border: 1px solid black;
+}
+
+.bl1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: aqua;
+}
+
+.bl6 {
+    grid-column: 3/6;
+    background-color: aqua;
+}
+
+.bl7 {
+    grid-column: 1/3;
+    background-color: aqua;
+}
+
+.bl13 {
+    grid-column: 3/6;
+    background-color: aqua;
+}
+
+    
